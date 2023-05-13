@@ -1,0 +1,87 @@
+
+.login{
+  min-height: 100vh;
+  height: 100vh;
+  margin:0;
+  padding:0;
+  background-color:#e2d9c2;
+  width:100vw;
+  position: relative;
+  overflow:auto
+}
+
+/* .picture{
+} */
+/* .flex-div{} */
+.login .title{
+  font-size: 5em;
+  margin-top: 16rem;
+  position: absolute;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito', sans-serif;
+  color: #af9858;
+}
+.login .form{
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Varela Round', sans-serif;
+    margin-top:25em;
+  position: absolute;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  width:24rem;
+  background-color: white;
+  box-shadow: 3;
+  padding: 2vw;
+  border-radius: 1rem
+}
+.login .submitButton{  
+  font-family: 'Varela Round', sans-serif;
+}
+.login .register-button{
+  font-family: 'Varela Round', sans-serif;
+}
+.login .loginsub{
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  padding: 0.2em 7em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  background-color:#5882FA;
+  margin-top: 2em;
+  color: white;
+  text-shadow:none;
+  text-align: center;
+  width: 20em;
+}
+
+.dev {
+  text-align:center;
+  margin-top:70em;
+  font-size: smaller;
+  /* bottom:0; */
+  position: absolute;
+  width:100%
+
+}
+@media (max-width: 1200px) {
+  .login .logo{
+    font-size: 0;
+
+  }
+  .login .title{
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom:1em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  .login .form{
+    margin-top:20em;
+
+    /* margin-top: 10em; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
