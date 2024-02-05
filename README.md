@@ -1,6 +1,6 @@
 Mellow
 
-Site: https://stay-mellow.com/
+Site: http://stay-mellow.com/
 --- Running the Project ---
 
 1. Install Node.js (https://nodejs.org/en)
