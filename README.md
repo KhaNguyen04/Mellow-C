@@ -1,7 +1,6 @@
 Mellow
 
-Link to code on GitHub: https://github.com/KhaNguyen04/Mellow-C
-
+Site: https://stay-mellow.com/
 --- Running the Project ---
 
 1. Install Node.js (https://nodejs.org/en)
